@@ -1,6 +1,8 @@
 {
     "name": "IAIdevcontainer",
-    "image": "localhost:5000/iaidevcontainer",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
     "remoteUser": "developer",
     "workspaceFolder": "/home/developer",
     "customizations": {
