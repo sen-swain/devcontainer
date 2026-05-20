@@ -1,0 +1,11 @@
+{
+    "name": "IAIdevcontainer",
+    "image": "localhost:5000/iaidevcontainer",
+    "remoteUser": "developer",
+    "workspaceFolder": "/home/developer",
+    "customizations": {
+        "jetbrains": {
+            "backend": "Rider"
+        }
+    }
+}
